@@ -6,8 +6,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install --legacy-peer-deps"
+    "prebuild": "npm install --legacy-peer-deps",
+    "build": "vercel build",
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",

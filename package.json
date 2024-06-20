@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prebuild": "npm install --legacy-peer-deps",
-    "build": "echo 'Running custom build steps if any'"
-  },
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "prebuild": "npm install --legacy-peer-deps",
+  "build": "echo 'Running custom build steps if any'"
+},
+
   "engines": {
     "node": "20.10.0"
   },
